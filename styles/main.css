@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+
+.grid-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  align-items: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 750px;
+  width: 500px;
+  background-color: black;
+}
+
+.grid div {
+  border: 1px solid rgb(71, 70, 70);
+  flex-grow: 1;
+  height: calc(100% - 700px);
+  width: 10%;
+}
+
+.grid div.pacman {
+  background-image: url('../assets/pac-man-gif.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.grid div.ghost {
+  background-image: url('../assets/yellowGhost.gif');
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+}
