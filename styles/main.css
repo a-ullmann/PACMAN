@@ -21,16 +21,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 750px;
+  height: 550px;
   width: 500px;
   background-color: black;
+  color: rgb(0, 0, 0);
 }
 
 .grid div {
-  border: 1px solid rgb(71, 70, 70);
+  /* border: 1px solid rgb(71, 70, 70); */
   flex-grow: 1;
-  height: calc(100% - 700px);
-  width: 10%;
+  width: calc(100% - 475px);
+  height: calc(100% - 525px);
 }
 
 .grid div.pacman {
@@ -44,4 +45,23 @@ body {
   background-repeat: no-repeat;
   background-size: 65%;
   background-position: center;
+}
+
+.grid div.ghost {
+  background-image: url('../assets/blueGhost\ copy.gif');
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+}
+
+.grid div.ghost {
+  background-image: url('../assets/pinkGhost.gif');
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center;
+}
+
+.wall {
+  background-color: rgb(11, 11, 94);
+  border: 1px solid rgb(0, 0, 255);
 }
