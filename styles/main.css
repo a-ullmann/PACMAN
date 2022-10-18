@@ -7,12 +7,25 @@ body {
   margin: 0;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  height: 100px;
+}
+
+#lvlBox {
+
+}
+
+#scoreBox {
+
+}
 
 .grid-wrapper {
-  height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 50px;
 }
 
 .grid {
@@ -68,8 +81,19 @@ body {
   background-position: center;
 }
 
+.grid div.ghostSpawnBox {
+  background-image: none;
+}
+
 .grid div.ghostPink {
   background-image: url('../assets/pinkGhostOriginal.gif');
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+}
+
+.grid div.ghostScared {
+  background-image: url('../assets/eatGhost.gif');
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: center;
@@ -80,6 +104,3 @@ body {
   border: 1px solid rgb(0, 0, 255);
 }
 
-.grid div.ghostSpawnBox {
-  background-image: none;
-}
