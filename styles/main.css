@@ -30,8 +30,22 @@ body {
 .grid div {
   /* border: 1px solid rgb(71, 70, 70); */
   flex-grow: 1;
-  width: calc(100% - 475px);
-  height: calc(100% - 525px);
+  width: calc(100% - 474px);
+  height: calc(100% - 523px);
+}
+
+.grid div.food {
+  background-image: url('../assets/yellowDot.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200%;
+}
+
+.grid div.cookie {
+  background-image: url('../assets/yellowDot.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600%;
 }
 
 .grid div.pacman {
@@ -54,14 +68,18 @@ body {
   background-position: center;
 }
 
-.grid div.ghost {
-  background-image: url('../assets/pinkGhost.gif');
+.grid div.ghostPink {
+  background-image: url('../assets/pinkGhostOriginal.gif');
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: 90%;
   background-position: center;
 }
 
 .wall {
   background-color: rgb(11, 11, 94);
   border: 1px solid rgb(0, 0, 255);
+}
+
+.grid div.ghostSpawnBox {
+  background-image: none;
 }

@@ -8,3 +8,6 @@ JS: pseudocode the most important functions, such as starting the game, movement
 
 day 2: 
 finalized the map by sketching it out and defining each wall. successfully implemented collision detection for walls and ghosts
+
+day 3: 
+optimized ghost movement by giving it the ability to choose a random direction when colliding with a wall. added dots, including sound, for pac-man to eat. 
