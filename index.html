@@ -7,18 +7,58 @@
     <script src="scripts/app.js" charset="utf-8"></script>
   </head>
   <body>
-    <div class="header">
-      <div id="lvlBox">LEVEL: <span id="currentLevel">01</span></div>
-      <div id="scoreBox">
-        <div id="highScoreBox">HIGH SCORE: <span id="highScore">000</span></div>
-        <div id="currentScoreBox">CURRENT SCORE: <span id="currentScore">000</span></div>
+    <div class="overlayStart">
+      <div class="overlayFlexStart">
+        <div class="overlayTextStart">PAC-MAN</div>
+
+        <div class="instructions">EAT THE FOOD BEFORE THE GHOSTS EAT YOU</div>
+        <div class="readyText">ARE YOU READY?</div>
+        <div class="startBtn1">
+          <img src="./assets/startBtn1.png" alt="start button">
+        </div>
       </div>
+
     </div>
-    <div class="grid-wrapper">
-      <div class="grid">
+    <div id="all">
+      <div class="header">
+        <div>FOOD LEFT: <span id="foodLeftSpan">180</span></div>
+        <div id="scoreBox">
+          <!-- <div id="highScoreBox">HIGH SCORE: <span id="highScore">000</span></div> -->
+          <div id="currentScoreBox">CURRENT SCORE: <span id="currentScore">000</span></div>
+        </div>
+      </div>
+      <div class="grid-wrapper">
+        <div class="grid">
+        </div>
+      </div>
+      <div class="footer">
+        <div class="lives"> <p>LIVES:</p> 
+          <img src="./assets/pacmanPixel2.jpeg" alt="pacman life" id="life1">
+          <img src="./assets/pacmanPixel2.jpeg" alt="pacman life" id="life2">
+          <img src="./assets/pacmanPixel2.jpeg" alt="pacman life" id="life3">
+        </div>
+        <div class="startBtn">
+          <img src="./assets/startBtn1.png" alt="start button">
+        </div>
       </div>
     </div>
     <audio id="audio"></audio>
     <audio id="audio-boi"></audio>
+    <audio id="pacgroundMusic"></audio>
+    <div class="overlay">
+      <div class="overlayFlex">
+        <div class="overlayText">GAME OVER</div>
+        <div class="finalScoreDiv">
+          <div class="finalScore">YOUR SCORE:</div>
+          <div id="finalScoreSpan">0</div>
+        </div>
+        <div class="playAgain">
+          <div class="playAgainText">PLAY AGAIN?</div>
+          <div class="startBtn2">
+            <img src="./assets/startBtn1.png" alt="start button">
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
