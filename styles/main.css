@@ -8,8 +8,8 @@
 }
 
 body {
-  font-family: 'Joystix', sans-serif; 
-  font-size: 23px;
+  font-family: 'Joystix', sans-serif;
+  font-size: 22px;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -27,11 +27,6 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
-
-
-
-
 
 .grid-wrapper {
   display: flex;
@@ -51,6 +46,21 @@ body {
   height: calc(100% - 523px);
 }
 
+.volume {
+  background-image: url('../assets/playBtn.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  display: block;
+  top: 110px;
+  right: 10px;
+  margin: -100px 0 0 0;
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+}
+
 .grid div.food {
   background-image: url('../assets/yellowDot.jpeg');
   background-repeat: no-repeat;
@@ -64,6 +74,7 @@ body {
   background-position: center;
   background-size: 600%;
 }
+
 .grid div.ghostSpawnBox {
   background-image: none;
 }
@@ -107,14 +118,19 @@ body {
   border: 1px solid rgb(0, 0, 255);
 }
 
-.footer{
+.fakeWall {
+  background-color: rgb(11, 11, 94);
+  border: 1px solid rgb(0, 0, 255);
+}
+
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 7%;
 }
 
-.lives > img{
+.lives>img {
   width: 50px;
 }
 
@@ -128,9 +144,11 @@ p {
   margin-right: 10px;
 }
 
-.startBtn > img{
+.endBtn>img {
   height: 60px;
+  cursor: pointer;
 }
+
 .overlayStart {
   position: fixed;
   display: flex;
@@ -164,7 +182,7 @@ p {
   text-shadow: 1px 1px yellow;
 }
 
-.startBtn1 > img{
+.startBtn1>img {
   height: 100px;
   cursor: pointer;
 }
@@ -186,7 +204,6 @@ p {
   justify-content: space-evenly;
   text-align: center;
   text-shadow: 2px 2px yellow;
-  /* text-shadow: 2px 2px rgb(152, 155, 255); */
 }
 
 .overlayText {
@@ -210,10 +227,7 @@ p {
   color: yellow;
 }
 
-.startBtn2 > img{
+.startBtn2>img {
   height: 100px;
   cursor: pointer;
 }
-
-
-
