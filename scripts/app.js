@@ -41,7 +41,7 @@ function init() {
   class Character {
     constructor(startingPosition, CSSclass) {
       this.startingPosition = startingPosition
-      this.speed = 1000
+      this.speed = 200
       this.counter = 5
       this.CSSclass = CSSclass
       this.scaredClass = 'ghostScared'
