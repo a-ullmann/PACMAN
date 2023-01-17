@@ -66,14 +66,7 @@ function init() {
       cells[this.currentPosition].classList.remove(this.CSSclass, 'ghost', this.scaredClass)
     }
     randomDirection() {
-      // let direction = false
-      // while (!direction) {
       return this.directions[Math.floor(Math.random() * 4)]
-      //   if (!doesContainWall(cells[this.currentPosition] + random)) {
-      //     direction = random
-      //   }
-      // }
-      // return direction
     }
     moveGhost() {
       let ranDirection = this.randomDirection()
