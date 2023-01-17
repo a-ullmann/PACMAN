@@ -5,6 +5,7 @@
 <h2>Description</h2>
 
 Pac-Man is an action video game where the player controls Pac-Man, who has to eat all dots found in a maze to win the game, while not getting caught by four ghosts. However, the player can eat a total of 4 enlarged dots, which scares the ghosts and turns them blue. This gives Pac-Man the ability to eat the ghosts for a certain time. Once all dots are collected, the game ends. 
+
 This project was written in HTML, CSS, and JavaScript and was successfully completed within one week. 
 
 
@@ -12,7 +13,7 @@ This project was written in HTML, CSS, and JavaScript and was successfully compl
 </br>
 <h2>Deployment link</h2>
 
-This project was deployed on GitHub and can be found <a href="https://a-ullmann.github.io/PACMAN/"> here</a>
+This project was deployed on GitHub and can be found <a href="https://a-ullmann.github.io/PACMAN/"> here</a>.
 
 
 
@@ -20,7 +21,7 @@ This project was deployed on GitHub and can be found <a href="https://a-ullmann.
 </br>
 <h2>Getting Started/Code Installation</h2>
 
-The code can be found on <a href="https://github.com/a-ullmann/PACMAN"> my personal GitHub page.</a>
+The code can be found on <a href="https://github.com/a-ullmann/PACMAN"> my personal GitHub page</a>.
 
 
 
@@ -106,12 +107,12 @@ It was a challenge to plan for my first project as I had no previous experience.
 <h2>Build/Code Process</h2>
 
 
-day 1:
+Day 1:</br>
 I completed a thorough plan of action consisting of an overview for HTML, CSS, JavaScript
 HTML & CSS: creating a base grid layout for the playing field.
 JS: pseudocode the most important functions, such as starting the game, movements, collisions, score point system
 
-day 2: 
+Day 2:</br>
 I finalised the map by sketching it out in Excel and defining each cell. 
 
 <img src="assets/readMe-images/maze-plan.png" alt="Maze Plan" title="Maze Plan">
@@ -121,7 +122,7 @@ I successfully implemented ghost movement as well as collision detection for Pac
 <img src="assets/readMe-images/contain-wall-ghost.png" alt="Collision Detection" title="Collision Detection">
 
 
-day 3: 
+Day 3:</br>
 I optimised ghost movement by giving it the ability to choose a random direction when colliding with a wall, as the following code shows:
 
 <img src="assets/readMe-images/move-ghost.png" alt="Ghost Movement" title="Ghost Movement">
@@ -130,7 +131,7 @@ Additionally, I added dots, including sound, for pac-man to eat by giving each d
 
 <img src="assets/readMe-images/cell-food.png" alt="Cells with Food" title="Cells with Food">
 
-day 4:
+Day 4:</br>
 I cleaned up parts of my code, and created classes to make it more dynamic. By doing so I was able to add all ghosts successfully. 
 The following screenshot shows the “Character” class. This class is mainly used for the ghosts, but it is also extended to serve as a basis for Pac-Man.
 
@@ -139,7 +140,7 @@ The following screenshot shows the “Character” class. This class is mainly u
 <img src="assets/readMe-images/pacman-class.png" alt="PAC-MAN Class" title="PAC-MAN Class">
 
 
-day 5: 
+Day 5:</br>
 I implemented a flexible overlay for the start of the game and game over to improve the user experience. 
 
 <img src="assets/readMe-images/overlay.png" alt="Start Game Overlay" title="Start Game Overlay">
@@ -148,7 +149,7 @@ I also added a score counter. This would update everytime Pac-Mac moved to a new
 
 <img src="assets/readMe-images/add-pacman.png" alt="Add PAC-MAN" title="Add PAC-MAN">
 
-Some challenges included getting the ghosts scared when pacman eats a cookie, as well as getting the ghosts to consistently move out of their spawn box. I also added multiple sound effects to keep the game interesting.
+Some challenges included getting the ghosts scared when pacman eats a cookie, as well as getting the ghosts to consistently move out of their spawn box. I also added multiple sound effects to keep the game engaging.
 
 
 
@@ -210,5 +211,5 @@ Adding @media methods in the CSS to enable smartphone playability.
 
 Animate characters to have a smooth movement. 
 Add automatic movement for Pac-Man to resemble the original game. 
-Create multiple levels. Once the player has finished the first level, they would move on to a new level, perhaps with faster moving ghosts
+Create multiple levels. Once the player has finished the first level, they would move on to a new level, perhaps with faster moving ghosts.
 
